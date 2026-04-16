@@ -19,6 +19,6 @@ Each lab is structured to simulate real-world workflows used by SOC analysts and
 
 To develop real world cybersecurity skills through consistent, hands on lab work and documentation, with the goal of transitioning into a SOC Analyst role.
 
- ⚠️ Disclaimer
+ Disclaimer
 
 All activities in this repository were conducted in controlled, ethical lab environments for educational purposes only
