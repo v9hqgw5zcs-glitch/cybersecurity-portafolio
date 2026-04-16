@@ -16,17 +16,11 @@ Tools & Environment
 
 Methodology
 
-1. Identify Local IP
+1. Identify Local IP = Code: ip a
 
-Code: ip a
+2. Discover Active Hosts = Code: nmap -sn 10.0.2.0/24
 
-2. Discover Active Hosts
-
-Code: nmap -sn 10.0.2.0/24
-
-3. Perform SYN Scan
-
-nmap -sS 10.0.2.2
+3. Perform SYN Scan = Code: nmap -sS 10.0.2.2
 
  Results
 	•	4 active hosts discovered
@@ -38,7 +32,6 @@ nmap -sS 10.0.2.2
 Analysis
 
 The scan results indicate that the target system is either protected by firewall rules or operating within a restricted NAT environment.
-
 Filtered ports suggest that packets are being blocked or dropped, preventing full visibility into available services.
 
 Key Takeaways
@@ -48,5 +41,4 @@ Key Takeaways
 	•	Interpreted filtered vs closed port responses
 
  Disclaimer
-
 This lab was conducted in a controlled environment for educational purposes only.
